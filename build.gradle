@@ -18,7 +18,7 @@ task copyTestLibs(type: Copy) {
 
 task copyPlugins(type: Copy) {
     into "${buildDir}/plugins"
-    from configurations.testCompile
+    from configurations.runtime
     include "sonar-*-plugin*.jar"
 }
 

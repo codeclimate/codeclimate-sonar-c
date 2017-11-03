@@ -1,6 +1,6 @@
 .PHONY: image test
 
-IMAGE_NAME ?= codeclimate/codeclimate-sonar-php
+IMAGE_NAME ?= codeclimate/codeclimate-sonar-c
 
 image:
 	docker build --rm -t $(IMAGE_NAME) .
