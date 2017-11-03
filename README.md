@@ -16,6 +16,9 @@ make image
 make test
 ```
 
+## Plugin
+Unlike other plugins, the c-familly is not available from Maven repositories, so the jar has to be manually [downloaded from the project page](https://docs.sonarqube.org/pages/viewpage.action?pageId=7996665)
+
 ## Usage
 
 1. If you haven't already, [install the Code Climate CLI](https://github.com/codeclimate/codeclimate).
